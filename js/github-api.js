@@ -40,7 +40,9 @@ async function loadAllRepos() {
         if (res.ok) {
             const personalRepos = await res.json();
             personalRepos.forEach(repo => {
-                if (!addedRepos.has(repo.name.toLowerCase()) && repo.name.toLowerCase() !== username.toLowerCase() && !pubRepos.has(repo.name.toLowerCase())) {
+                const repoNameLower = repo.name.toLowerCase();
+                const isSiteRepo = repoNameLower === username.toLowerCase() || repoNameLower === `${username.toLowerCase()}.github.io`;
+                if (!addedRepos.has(repoNameLower) && !isSiteRepo && !pubRepos.has(repoNameLower)) {
                     repo.isSpecial = false;
                     allProjectData.push(repo);
                 }
