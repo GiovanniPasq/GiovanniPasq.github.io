@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // 5. Scroll Spy for active navigation links
-    const sections = document.querySelectorAll('header.hero, section[id], .foundation-col[id]');
+    const sections = document.querySelectorAll('header.hero, section[id]');
     const navItems = document.querySelectorAll('.nav-links a');
 
     window.addEventListener('scroll', () => {

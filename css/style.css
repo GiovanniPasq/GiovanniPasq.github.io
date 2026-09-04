@@ -305,6 +305,7 @@ nav {
     padding-top: 56px;
     margin-top: 56px;
     border-top: 1px solid var(--border);
+    scroll-margin-top: 80px;
 }
 
 .showcase-header {
@@ -605,6 +606,7 @@ nav {
     padding-top: 56px;
     margin-top: 56px;
     border-top: 1px solid var(--border);
+    scroll-margin-top: 80px;
 }
 
 .foundation-grid {
@@ -616,6 +618,7 @@ nav {
 .foundation-col {
     display: flex;
     flex-direction: column;
+    scroll-margin-top: 80px;
 }
 
 .col-heading {
