@@ -134,4 +134,22 @@ async function loadPubRepoStats() {
     }
 }
 
+async function loadLiveProjectStats() {
+    const statElements = document.querySelectorAll('.repo-stat-live[data-repo]');
+    for (const el of statElements) {
+        const repoPath = el.dataset.repo;
+        try {
+            const res = await fetch(`https://api.github.com/repos/${repoPath}`);
+            if (res.ok) {
+                const data = await res.json();
+                const stars = data.stargazers_count;
+                el.textContent = stars >= 1000 ? `★ ${(stars / 1000).toFixed(1)}k` : `★ ${stars}`;
+            }
+        } catch (e) {
+            console.error('Failed to load stats for', repoPath, e);
+        }
+    }
+}
+
 loadPubRepoStats();
+loadLiveProjectStats();

@@ -4,250 +4,532 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giovanni Pasqualino — AI Engineer</title>
-    <meta name="description" content="Ph.D. in Computer Science specializing in Deep Learning and Computer Vision. AI Engineer at BV TECH, Milan.">
+    <meta name="description" content="AI Engineer & Ph.D. in Computer Science. Building intelligent systems from research to production: Agentic RAG, multimodal document understanding, and computer vision.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <nav>
     <div class="nav-inner">
-        <a href="#" class="nav-name">Giovanni Pasqualino</a>
+        <a href="#" class="nav-brand">
+            <span class="nav-name">Giovanni Pasqualino</span>
+            <span class="nav-role">AI Engineer</span>
+        </a>
         <div class="nav-links">
-            <a href="#skills">Skills</a>
+            <a href="#home">Home</a>
             <a href="#experience">Experience</a>
+            <a href="#research">Research</a>
+            <a href="#skills">Skills</a>
             <a href="#education">Education</a>
-            <a href="#publications">Publications</a>
             <a href="#projects">Projects</a>
         </div>
-        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-            <span></span><span></span><span></span>
-        </button>
+        <div class="nav-actions">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
     </div>
 </nav>
 
-<div class="container">
+<div class="container" id="home">
 
-    <!-- HERO -->
-    <div class="hero">
-        <h1>AI Engineer</h1>
-        <p>Ph.D. in Computer Science specializing in Deep Learning and Computer Vision. Architecting end-to-end RAG systems, multimodal document understanding, and advanced data extraction pipelines.</p>
-        <div class="contact-links">
-            <a href="https://linkedin.com/in/giovanniPasq" target="_blank" class="contact-link">LinkedIn</a>
-            <a href="https://github.com/GiovanniPasq" target="_blank" class="contact-link">GitHub</a>
-            <a href="https://scholar.google.com/citations?user=7KPqcUkAAAAJ" target="_blank" class="contact-link">Google Scholar</a>
-        </div>
-    </div>
+    <!-- 1. HERO SECTION (AI ENGINEER...) -->
+    <header class="hero">
+        <div class="hero-grid">
+            <div class="hero-text">
+                <h1 class="hero-title">AI Engineer</h1>
+                <p class="hero-tagline">Building intelligent systems from research to production.</p>
+                <p class="hero-desc">
+                    Designing and building end-to-end AI solutions including Agentic RAG systems, multimodal document understanding, computer vision models, and data-driven IoT analytics. Ph.D. in Computer Science with a strong engineering foundation.
+                </p>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section">
-        <div class="section-label">
-            <h2>Skills</h2>
-        </div>
-        <div class="skills-grid">
-            <div class="skill-group">
-                <h3>Programming Languages</h3>
-                <p>Python, Java, JavaScript, C#, C++</p>
-            </div>
-            <div class="skill-group">
-                <h3>Machine Learning</h3>
-                <p>PyTorch, PyTorch Lightning, PyTorchVideo, TensorFlow, Scikit-learn, OpenCV, Hugging Face, Jupyter, Anaconda</p>
-            </div>
-            <div class="skill-group">
-                <h3>Tools & Technologies</h3>
-                <p>Flutter, Native Android, .NET, Django, Node.js, PostgreSQL, MongoDB, Git, Docker</p>
-            </div>
-            <div class="skill-group">
-                <h3>Research</h3>
-                <p>Computer Vision, Machine Learning, Deep Learning</p>
-            </div>
-            <div class="skill-group">
-                <h3>Languages</h3>
-                <p>Italian, English</p>
-            </div>
-        </div>
-    </section>
+                <!-- AI CORE PILLARS -->
+                <div class="hero-pillars">
+                    <div class="pillar-card">
+                        <div class="pillar-icon">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-1.04z"></path>
+                                <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-1.04z"></path>
+                            </svg>
+                        </div>
+                        <div class="pillar-content">
+                            <span class="pillar-title">Generative AI</span>
+                            <span class="pillar-sub">&amp; RAG</span>
+                        </div>
+                    </div>
 
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section">
-        <div class="section-label">
-            <h2>Experience</h2>
-        </div>
-        <div>
-            <div class="exp-item">
-                <div class="item-header">
-                    <h3>AI Engineer — BV TECH</h3>
-                    <span class="item-date">Sep 2025 — Present</span>
+                    <div class="pillar-card">
+                        <div class="pillar-icon">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                        </div>
+                        <div class="pillar-content">
+                            <span class="pillar-title">Multimodal AI</span>
+                            <span class="pillar-sub">&amp; NLP</span>
+                        </div>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-icon">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="pillar-content">
+                            <span class="pillar-title">Computer Vision</span>
+                            <span class="pillar-sub">&amp; Object Detection</span>
+                        </div>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-icon">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                            </svg>
+                        </div>
+                        <div class="pillar-content">
+                            <span class="pillar-title">ML Engineering</span>
+                            <span class="pillar-sub">&amp; Data</span>
+                        </div>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-icon">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <!-- Robot head -->
+                                <rect x="5" y="8" width="14" height="10" rx="2"></rect>
+                                <!-- Antenna -->
+                                <line x1="12" y1="8" x2="12" y2="4"></line>
+                                <circle cx="12" cy="3.5" r="1" fill="currentColor" stroke="none"></circle>
+                                <!-- Eyes -->
+                                <circle cx="9" cy="13" r="1" fill="currentColor" stroke="none"></circle>
+                                <circle cx="15" cy="13" r="1" fill="currentColor" stroke="none"></circle>
+                                <!-- Mouth -->
+                                <path d="M9 16 h6"></path>
+                            </svg>
+                        </div>
+                        <div class="pillar-content">
+                            <span class="pillar-title">Agentic AI</span>
+                            <span class="pillar-sub">&amp; LLM Systems</span>
+                        </div>
+                    </div>
                 </div>
-                <span class="item-sub">Milan, Italy</span>
-                <ul>
-                    <li>Designed and implemented RAG systems end-to-end, covering document data extraction, preprocessing, retrieval architecture, and flow design.</li>
-                    <li>Developed document processing pipelines with OCR, NER, and multimodal models to ensure high-quality, structured data.</li>
-                </ul>
             </div>
 
-            <div class="exp-item">
-                <div class="item-header">
-                    <h3>Software Engineer — Gest IoT</h3>
-                    <span class="item-date">Mar 2021 — Aug 2025</span>
+            <div class="hero-media">
+                <div class="hero-photo-wrapper">
+                    <img src="images/giovanni.png" alt="Giovanni Pasqualino - AI Engineer" class="hero-photo">
                 </div>
-                <span class="item-sub">Catania, Italy</span>
-                <ul>
-                    <li>Developed architectures for managing, decoding, and translating data from LoRaWAN, WMBus, NB-IoT, and MQTT protocols, embedding AI modules for anomaly detection and predictive analytics on time-series.</li>
-                    <li>Designed and developed Android applications for WMBus data collection and workforce management, integrating AI modules for image analysis and OCR-based text recognition.</li>
-                </ul>
-            </div>
-
-            <div class="exp-item">
-                <div class="item-header">
-                    <h3>Research Fellow — IPLAB</h3>
-                    <span class="item-date">Sep 2019 — Sep 2020</span>
-                </div>
-                <span class="item-sub">University of Catania · Catania, Italy</span>
-                <ul>
-                    <li>Designed and developed unsupervised domain adaptation algorithms for object detection.</li>
-                    <li>Developed deep learning algorithms for processing egocentric data captured through Mixed Reality devices.</li>
-                </ul>
-            </div>
-
-            <div class="exp-item">
-                <div class="item-header">
-                    <h3>Intern — STMicroelectronics</h3>
-                    <span class="item-date">Mar 2019 — Jul 2019</span>
-                </div>
-                <span class="item-sub">Catania, Italy</span>
-                <ul>
-                    <li>Designed and developed an anomaly detection system integrating forecasting and anomaly detection models through a voting-based decision mechanism.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section id="education" class="section">
-        <div class="section-label">
-            <h2>Education</h2>
-        </div>
-        <div>
-            <div class="edu-item">
-                <div class="item-header">
-                    <h3>Ph.D. in Computer Science</h3>
-                    <span class="item-date">2020 — 2023</span>
-                </div>
-                <span class="item-sub">University of Catania · Machine Learning, Deep Learning, Computer Vision</span>
-            </div>
-            <div class="edu-item">
-                <div class="item-header">
-                    <h3>Master's Degree in Computer Science</h3>
-                    <span class="item-date">2018 — 2020</span>
-                </div>
-                <span class="item-sub">University of Catania · 110/110 cum laude</span>
-            </div>
-            <div class="edu-item">
-                <div class="item-header">
-                    <h3>Bachelor's Degree in Computer Science</h3>
-                    <span class="item-date">2015 — 2018</span>
-                </div>
-                <span class="item-sub">University of Catania · 110/110 cum laude</span>
             </div>
         </div>
-    </section>
+    </header>
 
-    <!-- PUBLICATIONS -->
-    <section id="publications" class="section">
-        <div class="section-label">
-            <h2>Publications</h2>
+    <!-- 2. PROFESSIONAL EXPERIENCE -->
+    <section id="experience" class="showcase-section">
+        <div class="showcase-header">
+            <h2 class="showcase-title">Professional Experience</h2>
         </div>
-        <div>
-            <div class="pub-item">
-                <strong>MITS-GAN: Safeguarding Medical Imaging from Tampering with Generative Adversarial Networks</strong>
-                <span class="pub-authors">G. Pasqualino, L. Guarnera, A. Ortis, S. Battiato</span>
-                <em>Computers in Biology and Medicine (CBM), 2024</em>
-                <div class="pub-links">
-                    <a href="https://www.sciencedirect.com/science/article/pii/S0010482524013337" target="_blank" class="pub-link pub-link--paper">
-                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M14 1H4.5A1.5 1.5 0 003 2.5v1H1.5A1.5 1.5 0 000 5v8.5A1.5 1.5 0 001.5 15h9a1.5 1.5 0 001.5-1.5V12h1.5A1.5 1.5 0 0015 10.5v-8A1.5 1.5 0 0014 1zm-3 12.5a.5.5 0 01-.5.5h-9a.5.5 0 01-.5-.5V5a.5.5 0 01.5-.5H3v6a1.5 1.5 0 001.5 1.5H11v1zm3-3a.5.5 0 01-.5.5h-9a.5.5 0 01-.5-.5V2.5a.5.5 0 01.5-.5H14a.5.5 0 01.5.5v8z"/></svg>
-                        Paper
-                    </a>
-                    <a href="#" class="pub-link pub-link--repo" data-repo="GiovanniPasq/MITS-GAN">
-                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-                        <span class="repo-link-name">MITS-GAN</span>
-                        <span class="repo-link-stats">
-                            <span class="repo-stat">★ <span class="stat-stars">—</span></span>
-                            <span class="repo-stat repo-forks-wrap">
-                                <svg style="width:10px;fill:currentColor;vertical-align:middle" viewBox="0 0 16 16"><path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/></svg>
-                                <span class="stat-forks">—</span>
-                            </span>
-                        </span>
-                    </a>
+
+        <div class="experience-grid">
+            <!-- BV TECH -->
+            <div class="exp-card">
+                <div class="exp-card-header">
+                    <div class="exp-bullet-dot"></div>
+                    <span class="exp-period">Sep 2024 — Present</span>
+                </div>
+                <div class="exp-card-body">
+                    <h3 class="exp-role">AI Engineer</h3>
+                    <span class="exp-company">BV TECH</span>
+                    <p class="exp-text">
+                        Designing and implementing end-to-end RAG systems and production AI solutions. Working with LLMs, OCR, NER, multimodal models, and vector databases. Building scalable FastAPI services and resilient data extraction pipelines for production deployment.
+                    </p>
+                    <div class="exp-tags">
+                        <span class="tag-pill">Python</span>
+                        <span class="tag-pill">FastAPI</span>
+                        <span class="tag-pill">LLMs</span>
+                        <span class="tag-pill">RAG</span>
+                        <span class="tag-pill">OCR</span>
+                        <span class="tag-pill">Vector DB</span>
+                        <span class="tag-pill">Docker</span>
+                    </div>
                 </div>
             </div>
-            <div class="pub-item">
-                <strong>A Multi Camera Unsupervised Domain Adaptation Pipeline for Object Detection in Cultural Sites through Adversarial Learning and Self-Training</strong>
-                <span class="pub-authors">G. Pasqualino, A. Furnari, G. M. Farinella</span>
-                <em>Computer Vision and Image Understanding (CVIU), 2022</em>
-                <div class="pub-links">
-                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1077314222000911" target="_blank" class="pub-link pub-link--paper">
-                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M14 1H4.5A1.5 1.5 0 003 2.5v1H1.5A1.5 1.5 0 000 5v8.5A1.5 1.5 0 001.5 15h9a1.5 1.5 0 001.5-1.5V12h1.5A1.5 1.5 0 0015 10.5v-8A1.5 1.5 0 0014 1zm-3 12.5a.5.5 0 01-.5.5h-9a.5.5 0 01-.5-.5V5a.5.5 0 01.5-.5H3v6a1.5 1.5 0 001.5 1.5H11v1zm3-3a.5.5 0 01-.5.5h-9a.5.5 0 01-.5-.5V2.5a.5.5 0 01.5-.5H14a.5.5 0 01.5.5v8z"/></svg>
-                        Paper
-                    </a>
-                    <a href="#" class="pub-link pub-link--repo" data-repo="fpv-iplab/STMDA-RetinaNet">
-                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-                        <span class="repo-link-name">STMDA-RetinaNet</span>
-                        <span class="repo-link-stats">
-                            <span class="repo-stat">★ <span class="stat-stars">—</span></span>
-                            <span class="repo-stat repo-forks-wrap">
-                                <svg style="width:10px;fill:currentColor;vertical-align:middle" viewBox="0 0 16 16"><path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/></svg>
-                                <span class="stat-forks">—</span>
-                            </span>
-                        </span>
-                    </a>
+
+            <!-- Gest IoT -->
+            <div class="exp-card">
+                <div class="exp-card-header">
+                    <div class="exp-bullet-dot"></div>
+                    <span class="exp-period">Mar 2021 — Aug 2024</span>
+                </div>
+                <div class="exp-card-body">
+                    <h3 class="exp-role">Software Engineer</h3>
+                    <span class="exp-company">Gest IoT</span>
+                    <p class="exp-text">
+                        Developing architectures for managing, decoding, and translating data from WMBus, NB-IoT, and MQTT protocols, embedding AI modules for anomaly detection and predictive analytics on time-series. Designing and developing Android applications for WMBus data collection and workforce management, integrating AI modules for image analysis and OCR-based text recognition.
+                    </p>
+                    <div class="exp-tags">
+                        <span class="tag-pill">Android</span>
+                        <span class="tag-pill">PostgreSQL</span>
+                        <span class="tag-pill">MongoDB</span>
+                        <span class="tag-pill">IoT</span>
+                        <span class="tag-pill">Time Series</span>
+                    </div>
                 </div>
             </div>
-            <div class="pub-item">
-                <strong>An Unsupervised Domain Adaptation Scheme for Single-Stage Artwork Recognition in Cultural Sites</strong>
-                <span class="pub-authors">G. Pasqualino, A. Furnari, G. Signorello, G.M. Farinella</span>
-                <em>Image and Vision Computing (IMAVIS), 2021</em>
-                <div class="pub-links">
-                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885621000032" target="_blank" class="pub-link pub-link--paper">
-                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M14 1H4.5A1.5 1.5 0 003 2.5v1H1.5A1.5 1.5 0 000 5v8.5A1.5 1.5 0 001.5 15h9a1.5 1.5 0 001.5-1.5V12h1.5A1.5 1.5 0 0015 10.5v-8A1.5 1.5 0 0014 1zm-3 12.5a.5.5 0 01-.5.5h-9a.5.5 0 01-.5-.5V5a.5.5 0 01.5-.5H3v6a1.5 1.5 0 001.5 1.5H11v1zm3-3a.5.5 0 01-.5.5h-9a.5.5 0 01-.5-.5V2.5a.5.5 0 01.5-.5H14a.5.5 0 01.5.5v8z"/></svg>
-                        Paper
-                    </a>
-                    <a href="#" class="pub-link pub-link--repo" data-repo="fpv-iplab/DA-RetinaNet">
-                        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-                        <span class="repo-link-name">DA-RetinaNet</span>
-                        <span class="repo-link-stats">
-                            <span class="repo-stat">★ <span class="stat-stars">—</span></span>
-                            <span class="repo-stat repo-forks-wrap">
-                                <svg style="width:10px;fill:currentColor;vertical-align:middle" viewBox="0 0 16 16"><path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/></svg>
-                                <span class="stat-forks">—</span>
-                            </span>
-                        </span>
-                    </a>
+
+            <!-- IPLAB -->
+            <div class="exp-card">
+                <div class="exp-card-header">
+                    <div class="exp-bullet-dot"></div>
+                    <span class="exp-period">Sep 2019 — Sep 2020</span>
+                </div>
+                <div class="exp-card-body">
+                    <h3 class="exp-role">Research Fellow</h3>
+                    <span class="exp-company">IPLAB · University of Catania</span>
+                    <p class="exp-text">
+                        Designing and developing unsupervised domain adaptation algorithms for object detection and deep learning algorithms for processing egocentric data captured through Mixed Reality devices.
+                    </p>
+                    <div class="exp-tags">
+                        <span class="tag-pill">PyTorch</span>
+                        <span class="tag-pill">Domain Adaptation</span>
+                        <span class="tag-pill">Object Detection</span>
+                        <span class="tag-pill">Mixed Reality</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STMicroelectronics -->
+            <div class="exp-card">
+                <div class="exp-card-header">
+                    <div class="exp-bullet-dot"></div>
+                    <span class="exp-period">Mar 2019 — Jul 2019</span>
+                </div>
+                <div class="exp-card-body">
+                    <h3 class="exp-role">Machine Learning Intern</h3>
+                    <span class="exp-company">STMicroelectronics</span>
+                    <p class="exp-text">
+                        Designing and developing an anomaly detection system integrating forecasting and anomaly detection models through a voting-based decision mechanism on semiconductor manufacturing time-series.
+                    </p>
+                    <div class="exp-tags">
+                        <span class="tag-pill">Python</span>
+                        <span class="tag-pill">Anomaly Detection</span>
+                        <span class="tag-pill">Time Series</span>
+                        <span class="tag-pill">Ensemble Models</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
-        <div class="section-label">
-            <h2>Side Projects</h2>
+    <!-- 3. RESEARCH, EDUCATION ECC... (3-COLUMN FOUNDATION GRID) -->
+    <section class="foundation-section">
+        <div class="foundation-grid">
+            
+            <!-- COLUMN 1: RESEARCH & PUBLICATIONS -->
+            <div id="research" class="foundation-col">
+                <div class="col-heading">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <h3>Research &amp; Publications</h3>
+                </div>
+
+                <div class="col-items">
+                    <article class="foundation-item">
+                        <h4 class="item-title">MITS-GAN: Safeguarding Medical Imaging from Tampering with Generative Adversarial Networks</h4>
+                        <span class="item-meta">Computers in Biology and Medicine (CBM), 2024</span>
+                        <div class="item-links">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0010482524013337" target="_blank" rel="noopener noreferrer" class="mini-link">Paper ↗</a>
+                            <a href="https://github.com/GiovanniPasq/MITS-GAN" target="_blank" rel="noopener noreferrer" class="mini-link pub-link--repo" data-repo="GiovanniPasq/MITS-GAN">Code ★ <span class="stat-stars">—</span></a>
+                        </div>
+                    </article>
+
+                    <article class="foundation-item">
+                        <h4 class="item-title">A Multi Camera Unsupervised Domain Adaptation Pipeline for Object Detection in Cultural Sites</h4>
+                        <span class="item-meta">Computer Vision and Image Understanding (CVIU), 2022</span>
+                        <div class="item-links">
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1077314222000911" target="_blank" rel="noopener noreferrer" class="mini-link">Paper ↗</a>
+                            <a href="https://github.com/fpv-iplab/STMDA-RetinaNet" target="_blank" rel="noopener noreferrer" class="mini-link pub-link--repo" data-repo="fpv-iplab/STMDA-RetinaNet">Code ★ <span class="stat-stars">—</span></a>
+                        </div>
+                    </article>
+
+                    <article class="foundation-item">
+                        <h4 class="item-title">An Unsupervised Domain Adaptation Scheme for Single-Stage Artwork Recognition in Cultural Sites</h4>
+                        <span class="item-meta">Image and Vision Computing (IMAVIS), 2021</span>
+                        <div class="item-links">
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0262885621000032" target="_blank" rel="noopener noreferrer" class="mini-link">Paper ↗</a>
+                            <a href="https://github.com/fpv-iplab/DA-RetinaNet" target="_blank" rel="noopener noreferrer" class="mini-link pub-link--repo" data-repo="fpv-iplab/DA-RetinaNet">Code ★ <span class="stat-stars">—</span></a>
+                        </div>
+                    </article>
+                </div>
+
+                <a href="https://scholar.google.com/citations?user=7KPqcUkAAAAJ" target="_blank" rel="noopener noreferrer" class="col-footer-link">
+                    View all publications on Google Scholar <span class="arrow">→</span>
+                </a>
+            </div>
+
+            <!-- COLUMN 2: ENGINEERING STACK -->
+            <div id="skills" class="foundation-col">
+                <div class="col-heading">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                    <h3>Engineering Stack</h3>
+                </div>
+
+                <div class="col-items stack-list">
+                    <div class="stack-row">
+                        <span class="stack-category">AI &amp; ML</span>
+                        <p class="stack-values">Python, PyTorch, PyTorch Lightning, TensorFlow, Hugging Face, Scikit-learn, OpenCV, LangChain, LangGraph</p>
+                    </div>
+
+                    <div class="stack-row">
+                        <span class="stack-category">Backend &amp; Data</span>
+                        <p class="stack-values">FastAPI, PostgreSQL, MongoDB, Redis, Pandas</p>
+                    </div>
+
+                    <div class="stack-row">
+                        <span class="stack-category">DevOps &amp; Tools</span>
+                        <p class="stack-values">Docker, Git, Linux, AWS, CI/CD, MLflow, Jupyter</p>
+                    </div>
+
+                    <div class="stack-row">
+                        <span class="stack-category">Other Languages</span>
+                        <p class="stack-values">Java, C++, C#, JavaScript, TypeScript, Flutter</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COLUMN 3: EDUCATION -->
+            <div id="education" class="foundation-col">
+                <div class="col-heading">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                        <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                    </svg>
+                    <h3>Education</h3>
+                </div>
+
+                <div class="col-items edu-list">
+                    <div class="edu-entry">
+                        <div class="edu-dot"></div>
+                        <div class="edu-content">
+                            <h4 class="edu-degree">Ph.D. in Computer Science</h4>
+                            <span class="edu-school">University of Catania, Italy</span>
+                            <span class="edu-date">2020 — 2023 · Machine Learning, Deep Learning, Computer Vision</span>
+                        </div>
+                    </div>
+
+                    <div class="edu-entry">
+                        <div class="edu-dot"></div>
+                        <div class="edu-content">
+                            <h4 class="edu-degree">M.Sc. in Computer Science</h4>
+                            <span class="edu-school">University of Catania, Italy</span>
+                            <span class="edu-date">2018 — 2020 · 110/110 cum laude</span>
+                        </div>
+                    </div>
+
+                    <div class="edu-entry">
+                        <div class="edu-dot"></div>
+                        <div class="edu-content">
+                            <h4 class="edu-degree">B.Sc. in Computer Science</h4>
+                            <span class="edu-school">University of Catania, Italy</span>
+                            <span class="edu-date">2015 — 2018 · 110/110 cum laude</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div id="repos" class="repo-grid">
-            <div class="repos-loading">Loading repositories…</div>
+    </section>
+
+    <!-- 4. SIDE PROJECTS -->
+    <section id="projects" class="showcase-section">
+        <div class="showcase-header">
+            <h2 class="showcase-title">Side Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1: agentic-rag-for-dummies -->
+            <div class="project-card">
+                <div class="project-card-header">
+                    <div class="project-icon-box">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <!-- Robot head -->
+                            <rect x="5" y="8" width="14" height="11" rx="2"></rect>
+                            <!-- Antenna -->
+                            <line x1="12" y1="8" x2="12" y2="4"></line>
+                            <circle cx="12" cy="3.5" r="1"></circle>
+                            <!-- Eyes -->
+                            <circle cx="9" cy="13" r="1.2" fill="currentColor" stroke="none"></circle>
+                            <circle cx="15" cy="13" r="1.2" fill="currentColor" stroke="none"></circle>
+                            <!-- Mouth -->
+                            <path d="M9 16.5 h6" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                    <div class="project-title-wrap">
+                        <h3 class="project-name">agentic-rag-for-dummies</h3>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    A modular Agentic RAG built with LangGraph — learn and implement Retrieval-Augmented Generation Agents in minutes with multi-agent workflows.
+                </p>
+                <div class="project-tags">
+                    <span class="tag-pill">LangGraph</span>
+                    <span class="tag-pill">Agentic RAG</span>
+                    <span class="tag-pill">LLMs</span>
+                    <span class="tag-pill">Python</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-meta-stat repo-stat-live" data-repo="GiovanniPasq/agentic-rag-for-dummies">★ —</span>
+                    <a href="https://github.com/GiovanniPasq/agentic-rag-for-dummies" target="_blank" rel="noopener noreferrer" class="project-meta-link">
+                        <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                        GitHub ↗
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2: chunky -->
+            <div class="project-card">
+                <div class="project-card-header">
+                    <div class="project-icon-box">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <!-- Scissors blades -->
+                            <circle cx="6" cy="6" r="2.5"></circle>
+                            <circle cx="6" cy="18" r="2.5"></circle>
+                            <!-- Blades crossing -->
+                            <path d="M8.4 8.4 L20 20"></path>
+                            <path d="M8.4 15.6 L20 4"></path>
+                        </svg>
+                    </div>
+                    <div class="project-title-wrap">
+                        <h3 class="project-name">chunky</h3>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    Open-source toolkit for reliable RAG pipelines: convert PDFs to Markdown, clean documents, inspect chunks, compare chunking strategies, and enrich metadata for LLMs.
+                </p>
+                <div class="project-tags">
+                    <span class="tag-pill">RAG</span>
+                    <span class="tag-pill">FastAPI</span>
+                    <span class="tag-pill">Chunking</span>
+                    <span class="tag-pill">Python</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-meta-stat repo-stat-live" data-repo="GiovanniPasq/chunky">★ —</span>
+                    <a href="https://github.com/GiovanniPasq/chunky" target="_blank" rel="noopener noreferrer" class="project-meta-link">
+                        <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                        GitHub ↗
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 3: DA-Faster-RCNN -->
+            <div class="project-card">
+                <div class="project-card-header">
+                    <div class="project-icon-box">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <!-- Outer frame -->
+                            <rect x="2" y="4" width="20" height="16" rx="1.5"></rect>
+                            <!-- Bounding box (dashed inner box) -->
+                            <rect x="6" y="8" width="9" height="7" rx="0.5" stroke-dasharray="2 1.5"></rect>
+                            <!-- Corner handle top-left -->
+                            <path d="M6 8 L6 7 M6 8 L5 8"></path>
+                            <!-- Corner handle bottom-right -->
+                            <path d="M15 15 L15 16 M15 15 L16 15"></path>
+                        </svg>
+                    </div>
+                    <div class="project-title-wrap">
+                        <h3 class="project-name">DA-Faster-RCNN</h3>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    Detectron2 implementation of Domain Adaptive Faster R-CNN for Object Detection in the Wild, addressing domain shifts in computer vision (CVPR).
+                </p>
+                <div class="project-tags">
+                    <span class="tag-pill">PyTorch</span>
+                    <span class="tag-pill">Detectron2</span>
+                    <span class="tag-pill">Computer Vision</span>
+                    <span class="tag-pill">Domain Adaptation</span>
+                </div>
+                <div class="project-footer">
+                    <span class="project-meta-stat repo-stat-live" data-repo="GiovanniPasq/DA-Faster-RCNN">★ —</span>
+                    <a href="https://github.com/GiovanniPasq/DA-Faster-RCNN" target="_blank" rel="noopener noreferrer" class="project-meta-link">
+                        <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                        GitHub ↗
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-footer">
+            <a href="https://github.com/GiovanniPasq" target="_blank" rel="noopener noreferrer" class="col-footer-link">
+                View all projects on GitHub <span class="arrow">→</span>
+            </a>
         </div>
     </section>
 
 </div>
 
+<!-- FOOTER -->
 <footer>
-    <span>© <span id="year"></span> Giovanni Pasqualino</span>
-    <div class="footer-right">
-        <a href="https://linkedin.com/in/giovanniPasq" target="_blank">LinkedIn</a>
-        <a href="https://github.com/GiovanniPasq" target="_blank">GitHub</a>
-        <a href="https://scholar.google.com/citations?user=7KPqcUkAAAAJ" target="_blank">Scholar</a>
+    <div class="footer-inner">
+        <div class="footer-contacts">
+            <a href="https://linkedin.com/in/giovanniPasq" target="_blank" rel="noopener noreferrer" class="footer-contact-item">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                LinkedIn
+            </a>
+            <a href="https://github.com/GiovanniPasq" target="_blank" rel="noopener noreferrer" class="footer-contact-item">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                GitHub
+            </a>
+            <a href="https://scholar.google.com/citations?user=7KPqcUkAAAAJ" target="_blank" rel="noopener noreferrer" class="footer-contact-item">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 12a8 8 0 0 1 7.162 1.44L24 9.5 12 0z"/>
+                </svg>
+                Google Scholar
+            </a>
+        </div>
+        <div class="footer-copyright">
+            <span>© <span id="year">2025</span> Giovanni Pasqualino. All rights reserved.</span>
+        </div>
     </div>
 </footer>
 
